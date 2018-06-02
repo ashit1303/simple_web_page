@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Forms</title>
+  <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+<h1>Forms</h1>
+<form method="POST" action="form.aspx" class="feed" >
+    <fieldset>
+      <legend>Who you are</legend>
+      <p><label><span> Name: </span> <input type="text" name="stuname" id="stuname" maxlength="20" autofocus required placeholder="Enter Name"></label></p>
+      <label><span>Email Id: </spam><input type="email" id="email" name="email" required autofocus placeholder="Enter Email" a > </label>
+  <p>
+    <label for="feed">What is your greatest idea:</label><br>
+    <textarea name="feed" id="feed" cols="55" rows="10" maxlength="1000"></textarea>
+  </p>
+      <p><input type="submit" name="submit" id="submit"></p>
+  </fieldset>
+  </form>
+
+<form method="POST" action="form1.aspx" id="left-float" class="right-float">
+  <fieldset>
+  <legend>Students Info</legend>
+<p><label >First Name:<input type="text" id="firstName" name="firstName" maxlength="20" ></label><br>
+<label >Second Name:<input type="text" id="secondName" name="secondName" maxlength="20" ></label><br>
+<label >Age:<input type="number" id="age" name="age" maxlength="2" ></label>
+<p>Gender<br>
+<label > <input type="radio" name="gender">Male</label><br>
+<label > <input type="radio" name="gender" checked>Female</label>
+</p>
+<p>Select Abilities: <br>
+  <label ><input type="checkbox" name="check">HTML</label><br>
+  <label ><input type="checkbox" name="check">CSS</label><br>
+  <label ><input type="checkbox" name="check">C programming</label><br>
+  <label ><input type="checkbox" name="check">Java Programming </label><br>
+  <label ><input type="checkbox" name="check">JavaScript</label><br>
+</p>
+<!--
+<p>Js Technologies:<br>
+  <input type="checkbox" name="js_types" id="node">
+  <label for="node">Node.js</label><br>
+  <input type="checkbox" name="learned" id="angularjs">
+  <label for="angularjs">Angular.js</label><br>
+  <input type="checkbox" name="learned" id="vuejs">
+  <label for="vuejs">Vue.js</label><br>
+</p>-->
+<p>Your favourite field:
+  <select name="fields">
+    <option value="">Select</option>
+    <option value="web">Web Developer</option>
+    <option value="app">App Developer</option>
+    <option value="app">Linux System Administration</option>
+    <option value="app">Cloud Computing</option>
+    <option value="app">Block Chain</option>
+    <option value="app">Data Science</option>
+    <option value="app">Machine Learning</option>
+  </select>
+</p>
+<p><label >What you thing about youself:</label>
+<textarea name="Evaluate youself"  cols="20" rows="10" maxlength="1000" ></textarea>
+</p>
+<p><input type="submit" value="Submit" id="mid" ></p>
+<p><input type="reset" name="Reset" id="mid"></p>
+</fieldset>
+</form>
+</body>
+</html>

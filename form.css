@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(32, 32, 32, 0.856);
+}
+
+
+
+
+h1{
+    text-align: center;
+    color:  rgb(8, 179, 22);
+}
+
+.right-float{
+    width: 230px;
+    background-color: rgb(91, 0, 175);
+    margin-right: 5%;
+    float: right;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 30, 70);
+    box-shadow: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(119, 119, 119);
+}
+fieldset{
+    color: aliceblue;
+    border-radius: 10px;
+    border-color: aliceblue;
+
+}
+
+.feed{
+    width: 500px;
+    margin-left: 5%;
+    background-color: rgb(13, 79, 179);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(3, 2, 105);
+    box-shadow: 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(24, 3, 100, 0.781);
+}
+
+span {
+    width: 135px;
+    display: block;  }
+
+
+/*
+.buttons a, .buttons button{
+    display:block;
+    float:left;
+    margin:0 7px 0 0;
+    background-color:#f5f5f5;
+    border:1px solid #dedede;
+    border-top:1px solid #eee;
+    border-left:1px solid #eee;    font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+    font-size:100%;
+    line-height:130%;
+    text-decoration:none;
+    font-weight:bold;
+    color:#565656;
+    cursor:pointer;
+    padding:5px 10px 6px 7px; 
+}
+.buttons button{
+    width:auto;
+    overflow:visible;
+    padding:4px 10px 3px 7px; 
+}
+.buttons button[type]{
+    padding:5px 10px 5px 7px; 
+    line-height:17px; 
+}
+*:first-child+html button[type]{
+    padding:4px 10px 3px 7px; 
+}
+.buttons button img, .buttons a img{
+    margin:0 3px -3px 0 !important;
+    padding:0;
+    border:none;
+    width:16px;
+    height:16px;
+}
+*/
