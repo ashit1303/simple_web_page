@@ -26,6 +26,7 @@ nav{
     border-color: rgb(196, 127, 37);
     overflow: hidden;
     display: inline-block;
+    display: block;
 }
 
 nav ul {
@@ -39,6 +40,22 @@ nav li:last-child{
     margin-right:0%;
 }
 
+
+.footer-up a:link{
+    color: rgb(92, 250, 0);
+    text-decoration: none;
+    
+}
+.footer-up a:hover{
+    color: rgb(2, 46, 87);
+    background-color: rgb(155, 155, 155);
+    font-weight: bolder;
+    font-size: 1.3em;
+    padding: 3px;
+}
+.footer-up a:visited{
+    color: #00ff62;
+}
 
 header{
     width:80%;
@@ -66,13 +83,12 @@ hgroup ol{
    
 }
 
-
 hrgroup{
     width: 70%;
     margin: 10px;
     float: left;
     border-right: 6px ridge rgb(64, 250, 179);
-    height: 210px;
+    height: 180px;
 }
 
 strong{
@@ -138,7 +154,7 @@ aside{
     color: rgb(81, 234, 240);
     display: block;
 }
-.footer-up   a{
+.footer-up  {
     
     text-decoration: none;
     color: rgb(255, 187, 0)
